@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abf666d5-52b6-4804-ad40-72a0273d3f1d" name="Default Changelist" comment="" />
+    <list default="true" id="abf666d5-52b6-4804-ad40-72a0273d3f1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter6/AVLTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/Sorts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sort/SortsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chapter5/SparseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter5/SparseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chapter6/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter6/BinSearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chapter6/HeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chapter6/BinSearchTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/SparseMatrix$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/SparseMatrix$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter5/SparseMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chapter5/SparseMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chapter6/Heap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/chapter6/HeapTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,38 +37,46 @@
     <session id="-1826383614">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="31" />
+          <entry key="java" value="47" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="31" />
-          <entry key="XML" value="1" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="58" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8516" />
+          <entry key="dummy" value="13" />
+          <entry key="java" value="12363" />
           <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8516" />
-          <entry key="XML" value="8" />
+          <entry key="JAVA" value="19289" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
     </session>
@@ -61,116 +84,75 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/Sorts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2101">
+              <caret line="105" selection-end-line="112" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sort/SortsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacencyList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacencyNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacentMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3307">
-              <caret line="222" column="18" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
-              <folding>
-                <element signature="e#15428#15429#0" expanded="true" />
-                <element signature="e#15465#15466#0" expanded="true" />
-                <element signature="e#15502#15503#0" expanded="true" />
-                <element signature="e#15534#15535#0" expanded="true" />
-                <element signature="e#15565#15566#0" expanded="true" />
-                <element signature="e#15595#15596#0" expanded="true" />
-                <element signature="e#15754#15755#0" expanded="true" />
-                <element signature="e#15785#15786#0" expanded="true" />
-                <element signature="e#16090#16091#0" expanded="true" />
-                <element signature="e#16129#16130#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="8050">
+              <caret line="328" column="7" selection-start-line="328" selection-start-column="7" selection-end-line="328" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/Matrix.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
-              <folding>
-                <element signature="e#6954#6955#0" expanded="true" />
-                <element signature="e#6989#6990#0" expanded="true" />
-                <element signature="e#7019#7020#0" expanded="true" />
-                <element signature="e#7056#7057#0" expanded="true" />
-                <element signature="e#7088#7089#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/SortUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="109" lean-forward="true" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chapter7/AdjacentMatrixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1668">
-              <caret line="82" column="61" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
+            <state relative-caret-position="-817">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-                <element signature="e#1476#1477#0" expanded="true" />
-                <element signature="e#1908#1909#0" expanded="true" />
-                <element signature="e#1963#1964#0" expanded="true" />
-                <element signature="e#2395#2396#0" expanded="true" />
-                <element signature="e#2450#2451#0" expanded="true" />
+                <element signature="e#1407#1408#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chapter7/AdjacencyListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sort/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/TestUitls.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="35" column="13" selection-start-line="17" selection-start-column="11" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chapter5/MatrixTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chapter6/BinNodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="41" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+            <state relative-caret-position="233">
+              <caret line="97" column="137" selection-start-line="97" selection-start-column="137" selection-end-line="97" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,15 +161,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chapter6/TestUtilsTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sort/MinHeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="251">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/BinNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -201,14 +199,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/chapter6/TestUtilsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter6/HoffmanTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapter6/BinNodeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter6/Heap.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapter6/HeapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter6/TestUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter6/BinNode.java" />
@@ -221,7 +220,21 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/SortUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter5/Matrix.java" />
         <option value="$PROJECT_DIR$/src/test/java/chapter7/AdjacentMatrixTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter6/Heap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter5/SparseMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter7/AdjacentMatrix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/chapter6/BinSearchTreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter6/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter6/BinSearchTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sort/input.txt" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/Heap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/Sorts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sort/SortsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sort/MinHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sort/MinHeap.java" />
       </list>
     </option>
   </component>
@@ -249,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,19 +291,39 @@
               <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
               <item name="datastruct" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="datastruct" type="b2602c69:ProjectViewProjectNode" />
+              <item name="datastruct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -299,10 +331,11 @@
     <property name="SearchEverywhereHistoryKey" value="edgeNum&#9;PSI&#9;JAVA://chapter7.AdjacentMatrix#countEdgeNum" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544883749304" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573223043882" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -312,6 +345,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="sort" />
       <recent name="chapter7" />
       <recent name="chapter5" />
       <recent name="chapter6" />
@@ -335,97 +369,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdjacentMatrixTest">
-    <configuration name="AdjacentMatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SortsTest.heapSort">
+    <configuration name="MinHeapTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastruct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter7.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter7" />
-      <option name="MAIN_CLASS_NAME" value="chapter7.AdjacentMatrixTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdjacentMatrixTest.dijkstra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="datastruct" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapter7" />
-      <option name="MAIN_CLASS_NAME" value="chapter7.AdjacentMatrixTest" />
-      <option name="METHOD_NAME" value="dijkstra" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.MinHeapTest" />
+      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdjacentMatrixTest.floyd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinHeapTest.pop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastruct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter7.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter7" />
-      <option name="MAIN_CLASS_NAME" value="chapter7.AdjacentMatrixTest" />
-      <option name="METHOD_NAME" value="floyd" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.MinHeapTest" />
+      <option name="METHOD_NAME" value="pop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdjacentMatrixTest.getMinimumWay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortsTest.fileSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastruct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter7.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter7" />
-      <option name="MAIN_CLASS_NAME" value="chapter7.AdjacentMatrixTest" />
-      <option name="METHOD_NAME" value="getMinimumWay" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.SortsTest" />
+      <option name="METHOD_NAME" value="fileSort" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortsTest.heapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="datastruct" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter5.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter5" />
-      <option name="MAIN_CLASS_NAME" value="chapter5.MatrixTest" />
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.SortsTest" />
+      <option name="METHOD_NAME" value="heapSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortsTest.mergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="datastruct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.SortsTest" />
+      <option name="METHOD_NAME" value="mergeSort" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MatrixTest" />
-      <item itemvalue="JUnit.AdjacentMatrixTest" />
-      <item itemvalue="JUnit.AdjacentMatrixTest.getMinimumWay" />
-      <item itemvalue="JUnit.AdjacentMatrixTest.dijkstra" />
-      <item itemvalue="JUnit.AdjacentMatrixTest.floyd" />
+      <item itemvalue="JUnit.SortsTest.fileSort" />
+      <item itemvalue="JUnit.SortsTest.mergeSort" />
+      <item itemvalue="JUnit.MinHeapTest.insert" />
+      <item itemvalue="JUnit.MinHeapTest.pop" />
+      <item itemvalue="JUnit.SortsTest.heapSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdjacentMatrixTest" />
-        <item itemvalue="JUnit.AdjacentMatrixTest.floyd" />
-        <item itemvalue="JUnit.AdjacentMatrixTest.dijkstra" />
-        <item itemvalue="JUnit.AdjacentMatrixTest.getMinimumWay" />
-        <item itemvalue="JUnit.MatrixTest" />
+        <item itemvalue="JUnit.SortsTest.heapSort" />
+        <item itemvalue="JUnit.MinHeapTest.insert" />
+        <item itemvalue="JUnit.MinHeapTest.pop" />
+        <item itemvalue="JUnit.SortsTest.mergeSort" />
+        <item itemvalue="JUnit.SortsTest.fileSort" />
       </list>
     </recent_temporary>
   </component>
@@ -445,58 +483,73 @@
       <workItem from="1544755361775" duration="4966000" />
       <workItem from="1544762543176" duration="6785000" />
       <workItem from="1544865421242" duration="11925000" />
+      <workItem from="1545034533871" duration="625000" />
+      <workItem from="1545120090037" duration="599000" />
+      <workItem from="1545502908732" duration="676000" />
+      <workItem from="1545541519825" duration="2112000" />
+      <workItem from="1545621821559" duration="761000" />
+      <workItem from="1545741802119" duration="599000" />
+      <workItem from="1545801309914" duration="1043000" />
+      <workItem from="1545806060866" duration="8235000" />
+      <workItem from="1545815692672" duration="4309000" />
+      <workItem from="1545895147714" duration="4120000" />
+      <workItem from="1545909345657" duration="628000" />
+      <workItem from="1573039515132" duration="8929000" />
+      <workItem from="1573095759760" duration="19722000" />
+      <workItem from="1573203914679" duration="9285000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdjacentMatrixTest_dijkstra - 2018.12.15 at 17h 59m 15s.xml">
-      <configuration name="AdjacentMatrixTest.dijkstra" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 18h 54m 29s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_dijkstra - 2018.12.15 at 17h 59m 59s.xml">
-      <configuration name="AdjacentMatrixTest.dijkstra" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 18h 55m 40s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_dijkstra - 2018.12.15 at 18h 58m 22s.xml">
-      <configuration name="AdjacentMatrixTest.dijkstra" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 18h 58m 14s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_floyd - 2018.12.15 at 20h 24m 29s.xml">
-      <configuration name="AdjacentMatrixTest.floyd" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 00m 31s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_floyd - 2018.12.15 at 20h 25m 10s.xml">
-      <configuration name="AdjacentMatrixTest.floyd" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 18m 15s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_floyd - 2018.12.15 at 20h 32m 26s.xml">
-      <configuration name="AdjacentMatrixTest.floyd" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 19m 25s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_floyd - 2018.12.15 at 20h 33m 10s.xml">
-      <configuration name="AdjacentMatrixTest.floyd" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 19m 30s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_floyd - 2018.12.15 at 21h 00m 54s.xml">
-      <configuration name="AdjacentMatrixTest.floyd" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 19m 33s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest_floyd - 2018.12.15 at 21h 58m 38s.xml">
-      <configuration name="AdjacentMatrixTest.floyd" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 22m 15s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdjacentMatrixTest - 2018.12.15 at 22h 14m 44s.xml">
-      <configuration name="AdjacentMatrixTest" configurationId="JUnit" />
+    <history-entry file="SortsTest_heapSort - 2019.11.08 at 19h 22m 47s.xml">
+      <configuration name="SortsTest.heapSort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32353000" />
+    <option name="totallyTimeSpent" value="93996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6681128" visible="true" weight="0.13432837" />
-      <window_info id="Structure" order="1" sideWeight="0.33188722" side_tool="true" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75566345" visible="true" weight="0.15306666" />
+      <window_info id="Structure" order="1" sideWeight="0.24433658" side_tool="true" visible="true" weight="0.15306666" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -504,7 +557,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -515,6 +569,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Mybatis datasource" order="10" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,6 +579,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/sort/MinHeapTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/MinHeap.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/sort/MinHeapTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/sort/MinHeapTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/Sorts.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/Sorts.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/MinHeap.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/MinHeap.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="list" language="JAVA" />
@@ -531,26 +638,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/SparseMatrix.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/DataSet.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/MyString.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacencyNode.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/Operation.java">
@@ -567,24 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4925">
-          <caret line="204" column="36" selection-start-line="204" selection-start-column="36" selection-end-line="204" selection-end-column="36" />
-          <folding>
-            <element signature="e#5706#5707#0" expanded="true" />
-            <element signature="e#5761#5762#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/chapter6/HeapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -616,23 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/BinNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
-          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program_Files/Java/jdk1.8.0_172/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -640,10 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacencyList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/chapter7/AdjacentMatrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4125">
-          <caret line="167" column="33" selection-start-line="167" selection-start-column="33" selection-end-line="167" selection-end-column="33" />
+        <state relative-caret-position="1625">
+          <caret line="82" column="61" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -665,12 +721,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/MyString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/SparseMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/Matrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5375">
+          <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/BinSearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2225">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
           <folding>
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program_Files/Java/jdk1.8.0_172/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/chapter6/BinSearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program_Files/Java/jdk1.8.0_172/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="1241" column="23" selection-start-line="1241" selection-start-column="23" selection-end-line="1241" selection-end-column="23" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/SortUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sort/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sort/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program_Files/Java/jdk1.8.0_172/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2450">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -681,78 +843,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chapter6/TestUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program_Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/com/sun/istack/internal/NotNull.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacencyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/SortUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacencyNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="109" lean-forward="true" selection-start-line="10" selection-start-column="109" selection-end-line="10" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter5/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
-          <folding>
-            <element signature="e#6954#6955#0" expanded="true" />
-            <element signature="e#6989#6990#0" expanded="true" />
-            <element signature="e#7019#7020#0" expanded="true" />
-            <element signature="e#7056#7057#0" expanded="true" />
-            <element signature="e#7088#7089#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/chapter7/AdjacentMatrixTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1668">
-          <caret line="82" column="61" selection-start-line="82" selection-start-column="61" selection-end-line="82" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1476#1477#0" expanded="true" />
-            <element signature="e#1908#1909#0" expanded="true" />
-            <element signature="e#1963#1964#0" expanded="true" />
-            <element signature="e#2395#2396#0" expanded="true" />
-            <element signature="e#2450#2451#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter7/AdjacentMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3307">
-          <caret line="222" column="18" selection-start-line="222" selection-start-column="18" selection-end-line="222" selection-end-column="18" />
+        <state relative-caret-position="8050">
+          <caret line="328" column="7" selection-start-line="328" selection-start-column="7" selection-end-line="328" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter6/BinNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sort/MinHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-817">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
-            <element signature="e#15428#15429#0" expanded="true" />
-            <element signature="e#15465#15466#0" expanded="true" />
-            <element signature="e#15502#15503#0" expanded="true" />
-            <element signature="e#15534#15535#0" expanded="true" />
-            <element signature="e#15565#15566#0" expanded="true" />
-            <element signature="e#15595#15596#0" expanded="true" />
-            <element signature="e#15754#15755#0" expanded="true" />
-            <element signature="e#15785#15786#0" expanded="true" />
-            <element signature="e#16090#16091#0" expanded="true" />
-            <element signature="e#16129#16130#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="97" column="137" selection-start-line="97" selection-start-column="137" selection-end-line="97" selection-end-column="137" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sort/SortsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sort/Sorts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2101">
+          <caret line="105" selection-end-line="112" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

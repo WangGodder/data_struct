@@ -4,6 +4,10 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * 稀疏矩阵
+ * @param <T>
+ */
 public class SparseMatrix<T> {
     private int row;
     private int col;

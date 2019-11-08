@@ -4,26 +4,23 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-
-import static org.junit.Assert.*;
 
 /**
  * @author: godder
  * @date: 2018/12/14
  */
-public class HeapTest {
-    Heap<Integer> heap;
+public class BinSearchTreeTest {
+    BinSearchTree<Integer> binSearchTree;
     List<Integer> list;
     Random random;
 
     @Before
     public void setUp() throws Exception {
-        list = TestUtils.getRandomList(8);
-        heap = new Heap<>(list);
+        list = TestUtils.getRandomList(20);
+        binSearchTree = new BinSearchTree<>(list);
         random = new Random(System.currentTimeMillis());
     }
 
@@ -31,7 +28,7 @@ public class HeapTest {
     public void insert() {
         int r = random.nextInt();
 
-        System.out.println(heap.insert(r));
+        System.out.println(binSearchTree.insert(r));
         list.add(r);
         getSortedList();
     }
@@ -39,13 +36,13 @@ public class HeapTest {
     @Test
     public void search() {
         for (Integer i : list) {
-            assert heap.search(i);
+            assert binSearchTree.search(i);
         }
         int r = random.nextInt();
         while (list.contains(r)) {
             r = random.nextInt();
         }
-        assert !heap.search(r);
+        assert !binSearchTree.search(r);
     }
 
     @Test
@@ -54,17 +51,17 @@ public class HeapTest {
         while (list.contains(r)) {
             r = random.nextInt();
         }
-        assert !heap.remove(r);
+        assert !binSearchTree.remove(r);
         r = random.nextInt(list.size());
         Integer integer = list.get(r);
         list.remove(r);
-        assert heap.remove(integer);
+        assert binSearchTree.remove(integer);
 
     }
 
     @Test
     public void getNodeNum() {
-        assert list.size() == heap.getNodeNum();
+        assert list.size() == binSearchTree.getNodeNum();
     }
 
     @Test
@@ -75,7 +72,7 @@ public class HeapTest {
                 max = i;
             }
         }
-        assert max == heap.getMax();
+        assert max == binSearchTree.getMax();
     }
 
     @Test
@@ -86,12 +83,12 @@ public class HeapTest {
                 min = i;
             }
         }
-        assert min == heap.getMin();
+        assert min == binSearchTree.getMin();
     }
 
     @Test
     public void getSortedList() {
-        List<Integer> heapList = heap.getSortedList();
+        List<Integer> heapList = binSearchTree.getSortedList();
         Integer heapArray[] = new Integer[heapList.size()];
         heapList.toArray(heapArray);
         System.out.println(heapList);
