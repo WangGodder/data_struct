@@ -1,4 +1,4 @@
-package sort;
+package tree;
 
 import lombok.NoArgsConstructor;
 

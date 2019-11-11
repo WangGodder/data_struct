@@ -1,8 +1,7 @@
-package sort;
+package tree;
 
 
 import com.sun.istack.internal.NotNull;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,7 +14,6 @@ import java.util.List;
  */
 @Getter
 @Setter
-@AllArgsConstructor
 public class BinaryTree<T extends Comparable<T>> implements Comparable<BinaryTree<T>> {
     private T element;
     private BinaryTree<T> left = null;
@@ -24,6 +22,14 @@ public class BinaryTree<T extends Comparable<T>> implements Comparable<BinaryTre
 
     public BinaryTree(@NotNull T element) {
         this.element = element;
+    }
+
+    public void leftEmphasis() {
+        this.balance--;
+    }
+
+    public void rightEmphasis() {
+        this.balance++;
     }
 
     public void preorderTraverse(List<T> list) {
